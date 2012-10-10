@@ -1,0 +1,20 @@
+From 71b7edef33e47dd356f338d59aa5ca79dbecbc84 Mon Sep 17 00:00:00 2001
+From: vishalpatwardhan <vishal.vishal03@gmail.com>
+Date: Wed, 10 Oct 2012 10:25:06 +0530
+Subject: [PATCH 3/3] Ratlam file added
+
+---
+ Ratlam | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Ratlam
+
+diff --git a/Ratlam b/Ratlam
+new file mode 100644
+index 0000000..63e74e6
+--- /dev/null
++++ b/Ratlam
+@@ -0,0 +1 @@
++"Ratlam is a junction"
+-- 
+1.7.11
+

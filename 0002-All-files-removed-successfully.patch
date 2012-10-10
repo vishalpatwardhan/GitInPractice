@@ -1,0 +1,335 @@
+From 6ce854145ef32aa7a0742fca3f31597bb0022e01 Mon Sep 17 00:00:00 2001
+From: vishalpatwardhan <vishal.vishal03@gmail.com>
+Date: Wed, 10 Oct 2012 10:24:35 +0530
+Subject: [PATCH 2/3] All files removed successfully
+
+---
+ 0001-New-Patch-file-added.patch       | 20 ----------------
+ 0002-New-Patch-file-added.patch       | 43 -----------------------------------
+ 0003-Changes-has-been-committed.patch | 20 ----------------
+ 0004-Second-file-has-been-added.patch | 20 ----------------
+ Andheri                               |  1 -
+ Dadar                                 |  1 -
+ Hinjewadi                             |  1 -
+ IndiaGate                             |  1 -
+ KarolBagh                             |  1 -
+ Kothrud                               |  1 -
+ LaxmiNagar                            |  1 -
+ Panvel                                |  1 -
+ RajendraNagar                         |  1 -
+ Shaniwarwada                          |  1 -
+ Test002                               |  1 -
+ TestPatchFile                         |  1 -
+ VijayNagar                            |  1 -
+ Warje                                 |  1 -
+ palasia                               |  1 -
+ patchfile1                            |  1 -
+ rajwada                               |  1 -
+ rebasemaster                          |  1 -
+ rebaserebase                          |  1 -
+ test01                                |  1 -
+ test02                                |  1 -
+ 25 files changed, 124 deletions(-)
+ delete mode 100644 0001-New-Patch-file-added.patch
+ delete mode 100644 0002-New-Patch-file-added.patch
+ delete mode 100644 0003-Changes-has-been-committed.patch
+ delete mode 100644 0004-Second-file-has-been-added.patch
+ delete mode 100644 Andheri
+ delete mode 100644 Dadar
+ delete mode 100644 Hinjewadi
+ delete mode 100644 IndiaGate
+ delete mode 100644 KarolBagh
+ delete mode 100644 Kothrud
+ delete mode 100644 LaxmiNagar
+ delete mode 100644 Panvel
+ delete mode 100644 RajendraNagar
+ delete mode 100644 Shaniwarwada
+ delete mode 100644 Test002
+ delete mode 100644 TestPatchFile
+ delete mode 100644 VijayNagar
+ delete mode 100644 Warje
+ delete mode 100644 palasia
+ delete mode 100644 patchfile1
+ delete mode 100644 rajwada
+ delete mode 100644 rebasemaster
+ delete mode 100644 rebaserebase
+ delete mode 100644 test01
+ delete mode 100644 test02
+
+diff --git a/0001-New-Patch-file-added.patch b/0001-New-Patch-file-added.patch
+deleted file mode 100644
+index 6fa51e0..0000000
+--- a/0001-New-Patch-file-added.patch
++++ /dev/null
+@@ -1,20 +0,0 @@
+-From 94eb1fd30408782c677514aac49d78d46c34ff9f Mon Sep 17 00:00:00 2001
+-From: vishalpatwardhan <vishal.vishal03@gmail.com>
+-Date: Wed, 10 Oct 2012 08:25:13 +0530
+-Subject: [PATCH 1/4] New Patch file added
+-
+----
+- patchfile1 | 1 +
+- 1 file changed, 1 insertion(+)
+- create mode 100644 patchfile1
+-
+-diff --git a/patchfile1 b/patchfile1
+-new file mode 100644
+-index 0000000..bb29399
+---- /dev/null
+-+++ b/patchfile1
+-@@ -0,0 +1 @@
+-+"First file created in patch file"
+--- 
+-1.7.11
+-
+diff --git a/0002-New-Patch-file-added.patch b/0002-New-Patch-file-added.patch
+deleted file mode 100644
+index 7400b48..0000000
+--- a/0002-New-Patch-file-added.patch
++++ /dev/null
+@@ -1,43 +0,0 @@
+-From 08cf056df8daddcc3c0e81b226f2e44f6e667479 Mon Sep 17 00:00:00 2001
+-From: vishalpatwardhan <vishal.vishal03@gmail.com>
+-Date: Wed, 10 Oct 2012 08:27:57 +0530
+-Subject: [PATCH 2/4] New Patch file added
+-
+----
+- changespatch.patch | 20 ++++++++++++++++++++
+- 1 file changed, 20 insertions(+)
+- create mode 100644 changes
+- create mode 100644 changespatch.patch
+-
+-diff --git a/changes b/changes
+-new file mode 100644
+-index 0000000..e69de29
+-diff --git a/changespatch.patch b/changespatch.patch
+-new file mode 100644
+-index 0000000..72c1a7b
+---- /dev/null
+-+++ b/changespatch.patch
+-@@ -0,0 +1,20 @@
+-+From 94eb1fd30408782c677514aac49d78d46c34ff9f Mon Sep 17 00:00:00 2001
+-+From: vishalpatwardhan <vishal.vishal03@gmail.com>
+-+Date: Wed, 10 Oct 2012 08:25:13 +0530
+-+Subject: [PATCH] New Patch file added
+-+
+-+---
+-+ patchfile1 | 1 +
+-+ 1 file changed, 1 insertion(+)
+-+ create mode 100644 patchfile1
+-+
+-+diff --git a/patchfile1 b/patchfile1
+-+new file mode 100644
+-+index 0000000..bb29399
+-+--- /dev/null
+-++++ b/patchfile1
+-+@@ -0,0 +1 @@
+-++"First file created in patch file"
+-+-- 
+-+1.7.11
+-+
+--- 
+-1.7.11
+-
+diff --git a/0003-Changes-has-been-committed.patch b/0003-Changes-has-been-committed.patch
+deleted file mode 100644
+index b28bf94..0000000
+--- a/0003-Changes-has-been-committed.patch
++++ /dev/null
+@@ -1,20 +0,0 @@
+-From 9e51bf84c16b095930244641ab0c6ec93f08d885 Mon Sep 17 00:00:00 2001
+-From: vishalpatwardhan <vishal.vishal03@gmail.com>
+-Date: Wed, 10 Oct 2012 09:51:34 +0530
+-Subject: [PATCH 3/4] Changes has been committed
+-
+----
+- Test001 | 1 +
+- 1 file changed, 1 insertion(+)
+- create mode 100644 Test001
+-
+-diff --git a/Test001 b/Test001
+-new file mode 100644
+-index 0000000..0a04645
+---- /dev/null
+-+++ b/Test001
+-@@ -0,0 +1 @@
+-+"Test for first file"
+--- 
+-1.7.11
+-
+diff --git a/0004-Second-file-has-been-added.patch b/0004-Second-file-has-been-added.patch
+deleted file mode 100644
+index e88c8e5..0000000
+--- a/0004-Second-file-has-been-added.patch
++++ /dev/null
+@@ -1,20 +0,0 @@
+-From 23d9b5b5f261461481682a74d68a3a93f77fc89f Mon Sep 17 00:00:00 2001
+-From: vishalpatwardhan <vishal.vishal03@gmail.com>
+-Date: Wed, 10 Oct 2012 09:52:40 +0530
+-Subject: [PATCH 4/4] Second file has been added
+-
+----
+- Test002 | 1 +
+- 1 file changed, 1 insertion(+)
+- create mode 100644 Test002
+-
+-diff --git a/Test002 b/Test002
+-new file mode 100644
+-index 0000000..7040af6
+---- /dev/null
+-+++ b/Test002
+-@@ -0,0 +1 @@
+-+"Test second file has been created"
+--- 
+-1.7.11
+-
+diff --git a/Andheri b/Andheri
+deleted file mode 100644
+index 298702c..0000000
+--- a/Andheri
++++ /dev/null
+@@ -1 +0,0 @@
+-"Andheri East"
+diff --git a/Dadar b/Dadar
+deleted file mode 100644
+index b56f49c..0000000
+--- a/Dadar
++++ /dev/null
+@@ -1 +0,0 @@
+-"Dadar Central"
+diff --git a/Hinjewadi b/Hinjewadi
+deleted file mode 100644
+index 653cf99..0000000
+--- a/Hinjewadi
++++ /dev/null
+@@ -1 +0,0 @@
+-"IT Parks"
+diff --git a/IndiaGate b/IndiaGate
+deleted file mode 100644
+index 22c7d39..0000000
+--- a/IndiaGate
++++ /dev/null
+@@ -1 +0,0 @@
+-"National Monument"
+diff --git a/KarolBagh b/KarolBagh
+deleted file mode 100644
+index 063813e..0000000
+--- a/KarolBagh
++++ /dev/null
+@@ -1 +0,0 @@
+-"Residential Place"
+diff --git a/Kothrud b/Kothrud
+deleted file mode 100644
+index 915925f..0000000
+--- a/Kothrud
++++ /dev/null
+@@ -1 +0,0 @@
+-"Residential Area"
+diff --git a/LaxmiNagar b/LaxmiNagar
+deleted file mode 100644
+index d8600ff..0000000
+--- a/LaxmiNagar
++++ /dev/null
+@@ -1 +0,0 @@
+-"Commercial Road"
+diff --git a/Panvel b/Panvel
+deleted file mode 100644
+index bb96a76..0000000
+--- a/Panvel
++++ /dev/null
+@@ -1 +0,0 @@
+-"Commercial Hub"
+diff --git a/RajendraNagar b/RajendraNagar
+deleted file mode 100644
+index bd1a9ee..0000000
+--- a/RajendraNagar
++++ /dev/null
+@@ -1 +0,0 @@
+-"Poor Infrastructure"
+diff --git a/Shaniwarwada b/Shaniwarwada
+deleted file mode 100644
+index 5622d31..0000000
+--- a/Shaniwarwada
++++ /dev/null
+@@ -1 +0,0 @@
+-"Historical Place"
+diff --git a/Test002 b/Test002
+deleted file mode 100644
+index 7040af6..0000000
+--- a/Test002
++++ /dev/null
+@@ -1 +0,0 @@
+-"Test second file has been created"
+diff --git a/TestPatchFile b/TestPatchFile
+deleted file mode 100644
+index b80375c..0000000
+--- a/TestPatchFile
++++ /dev/null
+@@ -1 +0,0 @@
+-"Brand new file has been added"
+diff --git a/VijayNagar b/VijayNagar
+deleted file mode 100644
+index a75b4fc..0000000
+--- a/VijayNagar
++++ /dev/null
+@@ -1 +0,0 @@
+-"BRTS VijayNagar"
+diff --git a/Warje b/Warje
+deleted file mode 100644
+index 2e61c09..0000000
+--- a/Warje
++++ /dev/null
+@@ -1 +0,0 @@
+-"Village of pune"
+diff --git a/palasia b/palasia
+deleted file mode 100644
+index d7f019d..0000000
+--- a/palasia
++++ /dev/null
+@@ -1 +0,0 @@
+-"Commercial Point"
+diff --git a/patchfile1 b/patchfile1
+deleted file mode 100644
+index bb29399..0000000
+--- a/patchfile1
++++ /dev/null
+@@ -1 +0,0 @@
+-"First file created in patch file"
+diff --git a/rajwada b/rajwada
+deleted file mode 100644
+index 5622d31..0000000
+--- a/rajwada
++++ /dev/null
+@@ -1 +0,0 @@
+-"Historical Place"
+diff --git a/rebasemaster b/rebasemaster
+deleted file mode 100644
+index dfad6d6..0000000
+--- a/rebasemaster
++++ /dev/null
+@@ -1 +0,0 @@
+-"change in rebase file..."
+diff --git a/rebaserebase b/rebaserebase
+deleted file mode 100644
+index ea909af..0000000
+--- a/rebaserebase
++++ /dev/null
+@@ -1 +0,0 @@
+-"rebase file changed...."
+diff --git a/test01 b/test01
+deleted file mode 100644
+index dc5467b..0000000
+--- a/test01
++++ /dev/null
+@@ -1 +0,0 @@
+-"This time merge occurs"
+diff --git a/test02 b/test02
+deleted file mode 100644
+index c8c4185..0000000
+--- a/test02
++++ /dev/null
+@@ -1 +0,0 @@
+-"Merge from testing branch"
+-- 
+1.7.11
+
