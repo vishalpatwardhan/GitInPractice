@@ -1,0 +1,20 @@
+From 94eb1fd30408782c677514aac49d78d46c34ff9f Mon Sep 17 00:00:00 2001
+From: vishalpatwardhan <vishal.vishal03@gmail.com>
+Date: Wed, 10 Oct 2012 08:25:13 +0530
+Subject: [PATCH 1/4] New Patch file added
+
+---
+ patchfile1 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 patchfile1
+
+diff --git a/patchfile1 b/patchfile1
+new file mode 100644
+index 0000000..bb29399
+--- /dev/null
++++ b/patchfile1
+@@ -0,0 +1 @@
++"First file created in patch file"
+-- 
+1.7.11
+

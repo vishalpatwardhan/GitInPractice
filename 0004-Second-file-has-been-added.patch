@@ -1,0 +1,20 @@
+From 23d9b5b5f261461481682a74d68a3a93f77fc89f Mon Sep 17 00:00:00 2001
+From: vishalpatwardhan <vishal.vishal03@gmail.com>
+Date: Wed, 10 Oct 2012 09:52:40 +0530
+Subject: [PATCH 4/4] Second file has been added
+
+---
+ Test002 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test002
+
+diff --git a/Test002 b/Test002
+new file mode 100644
+index 0000000..7040af6
+--- /dev/null
++++ b/Test002
+@@ -0,0 +1 @@
++"Test second file has been created"
+-- 
+1.7.11
+

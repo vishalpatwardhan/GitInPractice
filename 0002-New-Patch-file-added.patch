@@ -1,0 +1,43 @@
+From 08cf056df8daddcc3c0e81b226f2e44f6e667479 Mon Sep 17 00:00:00 2001
+From: vishalpatwardhan <vishal.vishal03@gmail.com>
+Date: Wed, 10 Oct 2012 08:27:57 +0530
+Subject: [PATCH 2/4] New Patch file added
+
+---
+ changespatch.patch | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+ create mode 100644 changes
+ create mode 100644 changespatch.patch
+
+diff --git a/changes b/changes
+new file mode 100644
+index 0000000..e69de29
+diff --git a/changespatch.patch b/changespatch.patch
+new file mode 100644
+index 0000000..72c1a7b
+--- /dev/null
++++ b/changespatch.patch
+@@ -0,0 +1,20 @@
++From 94eb1fd30408782c677514aac49d78d46c34ff9f Mon Sep 17 00:00:00 2001
++From: vishalpatwardhan <vishal.vishal03@gmail.com>
++Date: Wed, 10 Oct 2012 08:25:13 +0530
++Subject: [PATCH] New Patch file added
++
++---
++ patchfile1 | 1 +
++ 1 file changed, 1 insertion(+)
++ create mode 100644 patchfile1
++
++diff --git a/patchfile1 b/patchfile1
++new file mode 100644
++index 0000000..bb29399
++--- /dev/null
+++++ b/patchfile1
++@@ -0,0 +1 @@
+++"First file created in patch file"
++-- 
++1.7.11
++
+-- 
+1.7.11
+
